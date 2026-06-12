@@ -1,0 +1,46 @@
+{
+  "name": "nowsecure-mcp-server",
+  "version": "1.0.1",
+  "description": "MCP server for NowSecure Platform: pull assessment remediation findings and generate PDF reports, bypassing the broken UI report renderer.",
+  "type": "module",
+  "bin": {
+    "nowsecure-mcp-server": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "nowsecure",
+    "security",
+    "remediation",
+    "pdf"
+  ],
+  "author": {
+    "name": "Tatavarthi Tarun",
+    "url": "https://www.linkedin.com/in/tatav"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatavarthitarun/nowsecure-mcp-server.git"
+  },
+  "homepage": "https://github.com/tatavarthitarun/nowsecure-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/tatavarthitarun/nowsecure-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "pdfkit": "^0.15.0"
+  }
+}

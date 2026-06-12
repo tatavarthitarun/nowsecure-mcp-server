@@ -1,0 +1,8 @@
+node_modules/
+*.pdf
+.env
+
+# temp probe/test scripts
+_*.mjs
+_*.pdf
+*.tgz
